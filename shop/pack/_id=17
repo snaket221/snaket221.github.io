@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valor Mega Pack - Redsaint Mods</title>
+	<link rel="icon" type="image/png" href="https://redsaintmods.com/images/logo250x250.png" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-0c38nfCMzF8w8DBI+9nTWzApOpr1z0WuyswL4y6x/2ZTtmj/Ki5TedKeUcFusC/k" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"> 
+	<link href="../../css/core.css" rel="stylesheet">
+	<link href="../../css/subpages.css" rel="stylesheet">
+	<meta name="theme-color" content="#ff1419">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:creator" content="@jekeltor">
+	<meta property="og:url" content="https://redsaintmods.com">
+	<meta property="og:title" content="Valor Mega Pack - Redsaint Mods">
+	<meta property="og:description" content="GTA 5 Model Developer">
+	<meta property="og:image" content="https://redsaintmods.com/images/logo250x250.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../../js/preloader.js"></script>
+</head>
+<body>
+	<section class="preloader">
+	</section>
+	<section class="dropdown">
+		<div class="center">
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+			<a href="https://redsaintmods.com/search">Search</a>
+			<a href="https://redsaintmods.com/account">Account</a>
+			<a href="https://redsaintmods.com/cart">Cart</a>
+		</div>
+	</section>
+	<section class="navbar">
+		<div class="left">
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+			<a class="dropbtn" onclick="dropdown()"><i class="fas fa-bars"></i></a>
+		</div>
+		<div class="center">
+			<a href="https://redsaintmods.com"><img src="https://redsaintmods.com/images/logo250x250.png" alt="Redsaint Logo"></a>
+		</div>
+		<div class="right">
+			<form method="POST" action="../../shop/index.php" class="searchform"><input type="text" name="item" placeholder="Search here" class="search"><button name="mysubmitbutton" type="submit"><i class="fas fa-search"></i></button></form>
+			<a class="seen searcha" onclick="searchdb()"><i class="fas fa-search searchbutton"></i><span class="searchbutton">Search</span></a>
+			<a href="https://redsaintmods.com/account"><i class="fas fa-user"></i>Account</a>
+			<a href="https://redsaintmods.com/cart" class="seen"><i class="fas fa-shopping-cart"></i><span>Cart</span></a>
+		</div>
+	</section>
+	<section class="top">
+		<div class="bg-video" id="bg-video">
+		  	<iframe id="player" class="player" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/Icc2YsIsBL4?autoplay=1&amp;controls=1&amp;loop=1&amp;playlist=Icc2YsIsBL4&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fredsaintmods.com&amp;widgetid=1&amp;modestbranding=1&amp;mute=1;start=7;hd=1"></iframe>
+		</div>
+		<div class="screen">
+		</div>
+	</section>
+	<section class="body">
+				<h1>Valor Mega Pack's Vehicles</h1>
+				<div class="grid">
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/jj70a0mp.png)" href="https://redsaintmods.com/shop/car?id=158">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2020 Ram</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=158">View More</a>
+					<form method="POST" id="addcar158">
+						<input type="text" name="id" value="158#vehicles" hidden>
+						<button type="submit" form="addcar158" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/dvl0nnye.png)" href="https://redsaintmods.com/shop/car?id=157">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2020 FPIU</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=157">View More</a>
+					<form method="POST" id="addcar157">
+						<input type="text" name="id" value="157#vehicles" hidden>
+						<button type="submit" form="addcar157" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/8izkgi8c.png)" href="https://redsaintmods.com/shop/car?id=156">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2019 Silverado</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=156">View More</a>
+					<form method="POST" id="addcar156">
+						<input type="text" name="id" value="156#vehicles" hidden>
+						<button type="submit" form="addcar156" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/ouay3v0u.png)" href="https://redsaintmods.com/shop/car?id=155">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2018 Tahoe K9</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=155">View More</a>
+					<form method="POST" id="addcar155">
+						<input type="text" name="id" value="155#vehicles" hidden>
+						<button type="submit" form="addcar155" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/hk4rhfgb.png)" href="https://redsaintmods.com/shop/car?id=154">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2018 Tahoe</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=154">View More</a>
+					<form method="POST" id="addcar154">
+						<input type="text" name="id" value="154#vehicles" hidden>
+						<button type="submit" form="addcar154" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/dwxlrby0.png)" href="https://redsaintmods.com/shop/car?id=153">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2018 Harley</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=153">View More</a>
+					<form method="POST" id="addcar153">
+						<input type="text" name="id" value="153#vehicles" hidden>
+						<button type="submit" form="addcar153" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/nv977vaa.png)" href="https://redsaintmods.com/shop/car?id=152">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2018 GMC</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=152">View More</a>
+					<form method="POST" id="addcar152">
+						<input type="text" name="id" value="152#vehicles" hidden>
+						<button type="submit" form="addcar152" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/b1ax89yr.png)" href="https://redsaintmods.com/shop/car?id=151">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2018 F250</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=151">View More</a>
+					<form method="POST" id="addcar151">
+						<input type="text" name="id" value="151#vehicles" hidden>
+						<button type="submit" form="addcar151" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/xanzaqip.png)" href="https://redsaintmods.com/shop/car?id=150">
+				</a>
+				<div class="bottom">
+					<h2>Valor 18 Charger K9</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=150">View More</a>
+					<form method="POST" id="addcar150">
+						<input type="text" name="id" value="150#vehicles" hidden>
+						<button type="submit" form="addcar150" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/nnxd5jzj.png)" href="https://redsaintmods.com/shop/car?id=149">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2018 Charger</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=149">View More</a>
+					<form method="POST" id="addcar149">
+						<input type="text" name="id" value="149#vehicles" hidden>
+						<button type="submit" form="addcar149" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/p1mwxkt6.png)" href="https://redsaintmods.com/shop/car?id=148">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2016 Ram</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=148">View More</a>
+					<form method="POST" id="addcar148">
+						<input type="text" name="id" value="148#vehicles" hidden>
+						<button type="submit" form="addcar148" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/tc1evdak.png)" href="https://redsaintmods.com/shop/car?id=147">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2016 FPIU K9</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=147">View More</a>
+					<form method="POST" id="addcar147">
+						<input type="text" name="id" value="147#vehicles" hidden>
+						<button type="submit" form="addcar147" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/fheimvd1.png)" href="https://redsaintmods.com/shop/car?id=146">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2016 FPIU</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=146">View More</a>
+					<form method="POST" id="addcar146">
+						<input type="text" name="id" value="146#vehicles" hidden>
+						<button type="submit" form="addcar146" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/o71nzsnp.png)" href="https://redsaintmods.com/shop/car?id=145">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2016 FPIS</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=145">View More</a>
+					<form method="POST" id="addcar145">
+						<input type="text" name="id" value="145#vehicles" hidden>
+						<button type="submit" form="addcar145" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/n59mmf68.png)" href="https://redsaintmods.com/shop/car?id=144">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2015 F150</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=144">View More</a>
+					<form method="POST" id="addcar144">
+						<input type="text" name="id" value="144#vehicles" hidden>
+						<button type="submit" form="addcar144" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/1iuntynn.png)" href="https://redsaintmods.com/shop/car?id=143">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2014 Charger</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=143">View More</a>
+					<form method="POST" id="addcar143">
+						<input type="text" name="id" value="143#vehicles" hidden>
+						<button type="submit" form="addcar143" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/0gzozu8e.png)" href="https://redsaintmods.com/shop/car?id=142">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2013 Tahoe</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=142">View More</a>
+					<form method="POST" id="addcar142">
+						<input type="text" name="id" value="142#vehicles" hidden>
+						<button type="submit" form="addcar142" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/dgoqsqrm.png)" href="https://redsaintmods.com/shop/car?id=141">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2013 Caprice</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=141">View More</a>
+					<form method="POST" id="addcar141">
+						<input type="text" name="id" value="141#vehicles" hidden>
+						<button type="submit" form="addcar141" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/6mvwys55.png)" href="https://redsaintmods.com/shop/car?id=140">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2011 CVPI K9</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=140">View More</a>
+					<form method="POST" id="addcar140">
+						<input type="text" name="id" value="140#vehicles" hidden>
+						<button type="submit" form="addcar140" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/9uce0ueu.png)" href="https://redsaintmods.com/shop/car?id=139">
+				</a>
+				<div class="bottom">
+					<h2>Valor 2011 CVPI</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=139">View More</a>
+					<form method="POST" id="addcar139">
+						<input type="text" name="id" value="139#vehicles" hidden>
+						<button type="submit" form="addcar139" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+					</div>
+	</section>
+	<section class="footer">
+		<div class="column">
+			<h1>Menu</h1>
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+		</div>
+		<div class="column">
+			<h1>Information</h1>
+			<a href="https://redsaintmods.com/terms">Terms</a>
+			<a href="https://redsaintmods.com/faq">FAQ</a>
+		</div>
+		<div class="column">
+			<h1>Company</h1>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/partners">Partners/Team</a>
+		</div>
+		<div class="column">
+			<h1>Socials</h1>
+			<a href="https://redsaintmods.com/discord" class="social"><i class="fab fa-discord"></i></a>
+			<a href="https://redsaintmods.com/youtube" class="social"><i class="fab fa-youtube"></i></a>
+			<a href="https://redsaintmods.com/instagram" class="social"><i class="fab fa-instagram"></i></a>
+		</div>
+	</section>
+	<script src="../../js/core.js"></script>
+</body>
+</html>

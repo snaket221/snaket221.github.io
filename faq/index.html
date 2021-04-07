@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQ - Redsaint Mods</title>
+	<link rel="icon" type="image/png" href="https://redsaintmods.com/images/logo250x250.png" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-0c38nfCMzF8w8DBI+9nTWzApOpr1z0WuyswL4y6x/2ZTtmj/Ki5TedKeUcFusC/k" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"> 
+	<link href="../css/core.css" rel="stylesheet">
+	<link href="../css/subpages.css" rel="stylesheet">
+	<link href="../css/faq.css" rel="stylesheet">
+	<meta name="theme-color" content="#ff1419">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:creator" content="@jekeltor">
+	<meta property="og:url" content="https://redsaintmods.com">
+	<meta property="og:title" content="FAQ - Redsaint Mods">
+	<meta property="og:description" content="GTA 5 Model Developer">
+	<meta property="og:image" content="https://redsaintmods.com/images/logo250x250.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../js/preloader.js"></script>
+</head>
+<body>
+	<section class="preloader">
+	</section>
+	<section class="dropdown">
+		<div class="center">
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+			<a href="https://redsaintmods.com/search">Search</a>
+			<a href="https://redsaintmods.com/account">Account</a>
+			<a href="https://redsaintmods.com/cart">Cart</a>
+		</div>
+	</section>
+	<section class="navbar scrolled">
+		<div class="left">
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+			<a class="dropbtn" onclick="dropdown()"><i class="fas fa-bars"></i></a>
+		</div>
+		<div class="center">
+			<a href="https://redsaintmods.com"><img src="https://redsaintmods.com/images/logo250x250.png" alt="Redsaint Logo"></a>
+		</div>
+		<div class="right">
+			<form method="POST" action="../shop/index.php" class="searchform"><input type="text" name="item" placeholder="Search here" class="search"><button name="mysubmitbutton" type="submit"><i class="fas fa-search"></i></button></form>
+			<a class="seen searcha" onclick="searchdb()"><i class="fas fa-search searchbutton"></i><span class="searchbutton">Search</span></a>
+			<a href="https://redsaintmods.com/account"><i class="fas fa-user"></i>Account</a>
+			<a href="https://redsaintmods.com/cart" class="seen"><i class="fas fa-shopping-cart"></i><span>Cart</span></a>
+		</div>
+	</section>
+	<section class="body">
+		<div class="questions">
+			<h1>Payment Information</h1>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Do you store any of our information on Stripe checkout?</h4>
+				<p>This simple answer is: no. On checkout, we use Stripe&#039;s REST API. In using this API, the fields where you type in your information (credit card number, CVC, and expiration date) these actually reside on Stripe&#039;s server. To accomplish this, we use an iframe of Stripe&#039;s fields. This means that the information <u>always</u> stays on your end and never touches our server, keeping you safe. To find out more information on this, please contact Jekeltor#0001.</p>
+			</div>
+						<h1>Redsaint Mods and Models</h1>
+						<div class="item" onclick="openquestion(this)">
+				<h4>What is Redsaint Modifications?</h4>
+				<p>Redsaint Modifications is a Vehicle Modeler for the GTA5 Modding Community. Here at Redsaint Modifications, we offer high-quality Non-ELS Vehicles which are designed to suit GTA 5 and it&#039;s users.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Where do I purchase Official Redsaint Models?</h4>
+				<p>You may purchase Official Redsaint Models at <a href="https://redsaintmods.com">https://redsaintmods.com</a></p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>I Purchased a Redsaint Model; Where do I download it?</h4>
+				<p>After making a purchase, head over to the Cart section on the website in the top right and click it. After signing into your discord account, you'll have a client area where you may download your purchased vehicles.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>I bought a model although I don't see it in download</h4>
+				<p>First, head over to PayPal or whichever banking website, make sure that a charge was depleted from your account. If not, the transaction never went through. Either you accidentally didn't press the "Confirm Purchase" or your card might of be declined by your bank or card itself. If it seems like a payment has gone through, make sure to sign in to the correct discord account that you used to purchase the model when you purchased it. If none of these options worked or you're unsure about the method, you're more than welcome to open a support ticket in this discord.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>How do I properly put the vehicles into my FiveM game?</h4>
+				<p>Here at Redsaint Modifications, Redsaint may not provide support for FiveM nor make vehicles FiveM ready due to FiveM&#039;s ToS. However, there have been outside sources created by fellow members within the community that customers may follow in order to properly install the vehicles into FiveM. We recommend watching <a href="https://www.youtube.com/watch?v=fOD7-qWBnGw&amp;ab_channel=BabyYodaOfficial">this</a> video. The video may not be the exact pack you are looking for but the process within the video is similar.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>I installed a Vehicle/Pack, although the lights are broken.</h4>
+				<p>Vehicle Emergency Lighting being broken is a common occurrence with all Vehicle Developers. This is a Consumer sided issue and not an issue with the model itself although as common as it is, it is also pretty easy to fix. We recommend following <a href="https://youtu.be/xxzYPjAz3Nw">this guide</a> created by a fellow user.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Does Redsaint do Custom Orders?</h4>
+				<p>Redsaint does not offer custom model services. Future plans may come, however, as of right now, this service is not offered.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>May I purchase models using Support Tickets?</h4>
+				<p>No, the only way to purchase as of 10/28/2020 is through this website.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Can I use other payment sources such as BitCoin, AltCoin, and Etc?</h4>
+				<p>No, as of right now, the only way of payment is through PayPal. Although, we might <u>potentially</u> introduce a Credit Card option although that's simply a prediction, not certain.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>How do I receive my Customer Role?</h4>
+				<p>Head over to #role-request, there will be a Sticky Message pinned after the last message stating the instructions on how to gain the customer role.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>What're the requirements for Trusted Developer?</h4>
+				<p>Well, for one, Redsaint is the key decision-maker being the Owner. Although, being Trusted by Redsaint is a major factor in his judgment. Redsaint will not hand out free Trusted Roles without knowing the individual for an extent of time and actually knowing them.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Do RedSaint's Packs come with a Red & Blue or Blue & Blue Option?</h4>
+				<p>Yes, all of RedSaint's Packs come with a Red & Blue Variant and an all Blue Variant.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Can I lower the amount of Polys on a RedSaint Model or Optimize it more?</h4>
+				<p>No, you cannot lower the amount of Polys or Optimize it since the vehicles are optimized to the maximum potential, if it was optimized a little more then all the quality would be lost.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Is there a way to get Base Models or Parts RedSaint uses for his vehicles?</h4>
+				<p>RedSaint does not supply parts or bases, you must contact the original owners of the Bases/Parts.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>My game is lagging after putting RedSaint's model into my game</h4>
+				<p>As, we've told people. It's a case by case situation although these vehicles are tested by people who have Medium to High PC Specs which is recommended to play FiveM enjoyably. We recommend lowering your Graphics Settings or potentially upgrading your computer. That issue is more client-side and also depends on how many people are inside of the game, resources being streamed, other programs running at the same time, etc.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Why is the ladder floating for everyone else and or why is the camera zoomed out?</h4>
+				<p>This is because you are driving the collision version of the ladder truck. We highly recommend you drive the non-collision ladder truck and spawn in the collision version when you get on scene. There is no way to fix this issue with the collision version due to the way the dummy works which allows you to walk up.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Does  Redsaint Do any deals or discounts for large purchases</h4>
+				<p>No, the only discounts are the ones that are announced in the Discord which are limited time </p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Does Redsaint sell his old packs?</h4>
+				<p>No, the only packs and/or cars that he sells are on the website. If it is not on the website, then it is not for sale.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Do the packs and/or cars come with templates?</h4>
+				<p>Yes, all of Redsaints vehicles come with templates</p>
+			</div>
+						<h1 style="margin-top: 5vh">Team Member Positions</h1>
+						<div class="item" onclick="openquestion(this)">
+				<h4>How do I apply for RedSaint's Team Member Position?</h4>
+				<p>Go to <a href="https://forms.gle/qu7xMfjexeEPKdNa9">this link</a> and you'll be taken to a Google Forums to fill out an application. Answer honestly!</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>What do I receive if I join RedSaint's Team?</h4>
+				<p>It's not guaranteed on exactly what you may get although you may get discounts, exclusive insides, future vehicle plans, potentially free vehicles, and a caring team here to support you. More advantages are scheduled to happen although that's not guaranteed and may change at any moment.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>What is the Non-Disclosure Agreement?</h4>
+				<p>The Non-Disclosure Agreement (NDA) is simply an agreement between RedSaint and yourself legally binding to not disclose any future plans to the public or anything of that nature. Once your application is accepted, we'll explain more in detail about it.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>I submitted my application, do I need to ping or message someone?</h4>
+				<p>No, if you Ping or Message someone on the Staff Team, your application may be invalidated and you may be required to retry the Application. RedSaint and Very Trusted Staff who have access check the Applications often although sometimes, it may take a while due to complications in our own personal lives.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>How do I know if my Application was Accepted or Denied?</h4>
+				<p>The Application Reader will contact you through Discord and send a Private Direct Message (DM/PM) to the specific Discord Account said on the application.</p>
+			</div>
+						<div class="item" onclick="openquestion(this)">
+				<h4>Can anybody just see the Submissions I've provided?</h4>
+				<p>No, application submissions are confidential and only shared with the most Trusted Individuals of RedSaint.</p>
+			</div>
+					</div>
+	</section>
+	<section class="footer">
+		<div class="column">
+			<h1>Menu</h1>
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+		</div>
+		<div class="column">
+			<h1>Information</h1>
+			<a href="https://redsaintmods.com/terms">Terms</a>
+			<a href="https://redsaintmods.com/faq">FAQ</a>
+		</div>
+		<div class="column">
+			<h1>Company</h1>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/partners">Partners/Team</a>
+		</div>
+		<div class="column">
+			<h1>Socials</h1>
+			<a href="https://redsaintmods.com/discord" class="social"><i class="fab fa-discord"></i></a>
+			<a href="https://redsaintmods.com/youtube" class="social"><i class="fab fa-youtube"></i></a>
+			<a href="https://redsaintmods.com/instagram" class="social"><i class="fab fa-instagram"></i></a>
+		</div>
+	</section>
+	<script src="../js/car.js"></script>
+	<script>
+		function openquestion(e) {
+			e.classList.toggle("shown");
+		}
+	</script>
+</body>
+</html>

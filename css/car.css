@@ -1,0 +1,280 @@
+.body {
+	display: flex;
+	padding: 20vh 10% 5vh 10%;
+	margin: 0;
+	width: 80%;
+}
+
+.body .left .overflow {
+	display: inline-flex;
+	width: 40vw;
+	height: 22.5vw;
+	overflow-x: hidden;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	border-radius: .5vh;
+	box-shadow: 0vh 0vh 2vh rgba(0, 0, 0, .7);
+}
+
+.body .left .overflow .absolute {
+	display: flex;
+	left: 0;
+	position: absolute;
+	transition: all .5s ease;
+}
+
+.body .left .overflow .absolute .image {
+	width: 40vw;
+	height: 22.5vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.body .left .controls {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.body .left .controls .l, .body .left .overflow .controls .r {
+	width: 40%;
+}
+
+.body .left .controls .l {
+	text-align: left;
+	margin-right: 5%;
+}
+
+.body .left .controls .r {
+	text-align: right;
+	margin-left: 5%;
+}
+
+.body .left .controls a {
+	font-size: 3vh;
+	color: #fff;
+	cursor: pointer;
+	transition: all .5s ease;
+	padding: .5vh 2%;
+}
+
+.body .left .controls a.conleft {
+	margin-left: -1vh;
+}
+
+.body .left .controls a.conright {
+	margin-right: -1vh;
+}
+
+.body .left .controls a:hover {
+	margin-left: 0vh;
+	margin-right: 0vh;
+}
+
+.body .left .bottomimages {
+	display: grid;
+	width: 40vw;
+	grid-auto-rows: 1fr;
+	grid-column-gap: 1%;
+	grid-row-gap: 8vh;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top: .5vh;
+}
+
+.body .left .bottomimages .image {
+	display: inline-flex;
+	width: 9.7vw;
+	height: 5.45625vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	border-radius: .5vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.body .left .bottomimages .image img {
+	height: 5vh;
+	width: auto;
+}
+
+.body .right {
+	width: 37vw;
+	margin-left: 2vw;
+	height: 22.5vw;
+	position: relative;
+}
+
+.body .right h1 {
+	font-size: 3.5vh;
+	color: #000;
+	margin: 0;
+	margin-bottom: 3vh;
+	font-weight: 900;
+	text-align: left;
+}
+
+.body .right h2 {
+	font-size: 2.25vh;
+	color: #000;
+	font-weight: 500;
+	margin: 0;
+	margin-bottom: 2vh;
+}
+
+.body .right p {
+	font-size: 1.7vh;
+	color: #000;
+	margin: 0;
+	margin-bottom: 2vh;
+}
+
+.body .right .bottom {
+	position: absolute;
+	bottom: 1vh;
+	left: 0;
+	padding-top: 1vh;
+	width: 100%;
+	margin-top: 10vh;
+	padding-bottom: 1vh;
+	text-align: center;
+}
+
+.body .right .bottom a, .body .right .bottom button {
+	font-size: 1.75vh;
+	color: #fff;
+	background-color: #ff1402;
+	padding: 1vh 3%;
+	text-decoration: none;
+	border-radius: .5vh;
+	box-shadow: 0vh 0vh 2vh rgba(0, 0, 0, .7);
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.othercars {
+	width: 80%;
+	margin: 10vh 10% 7vh 10%;
+	text-align: center;
+}
+
+.othercars h1 {
+	font-size: 3.5vh;
+	color: #000;
+	margin: 0;
+	margin-bottom: 3vh;
+	text-align: center;
+}
+
+.othercars .grid {
+	display: grid;
+	width: 100%;
+	grid-auto-rows: 1fr;
+	grid-column-gap: 5%;
+	grid-row-gap: 8vh;
+	grid-template-columns: repeat(4, 1fr);
+	margin-bottom: 12vh;
+}
+
+.othercars .grid .item .top {
+	display: block;
+	width: 16.8vw;
+	height: 9.45vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0vh 0vh 2vh rgba(0, 0, 0, .7);
+	border-radius: .5vh;
+}
+
+.othercars .grid .item .bottom {
+	text-align: center;
+	margin-top: 2vh;
+}
+
+.othercars .grid .item .bottom h2 {
+	font-size: 2.25vh;
+	color: #000;
+	margin: 0;
+}
+
+.othercars .grid .item .bottom h3 {
+	font-size: 1.6vh;
+	font-weight: 400;
+	margin: 0;
+	margin-top: 1vh;
+	margin-bottom: 4vh;
+}
+
+.othercars .grid .item .bottom a, .othercars .grid .item .bottom input[type=submit] {
+	font-size: 1.75vh;
+	color: #fff;
+	background-color: #ff1402;
+	padding: 1vh 3%;
+	text-decoration: none;
+	border-radius: .5vh;
+	box-shadow: 0vh 0vh 2vh rgba(0, 0, 0, .7);
+	font-weight: 400;
+}
+
+@media screen and (max-width: 600px), (orientation : portrait) {
+	.body {
+		display: block;
+	}
+
+	.body .left .overflow {
+		width: 80vw;
+		height: 45vw;
+	}
+
+	.body .left .overflow .absolute .image {
+		width: 80vw;
+		height: 45vw;
+	}
+
+	.body .left .bottomimages {
+		width: 80vw;
+	}
+
+	.body .left .bottomimages .image {
+		width: 19.4vw;
+		height: 10.9125vw;
+	}
+
+	.body .left .bottomimages .image img {
+		height: 3vh;
+		widht: auto;
+	}
+
+	.body .right {
+		width: 80vw;
+		height: auto;
+		margin-top: 3vh;
+		text-align: center;
+		margin-left: 0vh;
+	}
+
+	.body .right h1 {
+		text-align: center;
+	}
+
+	.body .right .bottom {
+		position: relative;
+		margin-top: 5vh;
+	}
+
+	.othercars .grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.othercars .grid .item .top {
+		width: 38vw;
+		height: 21.375vw;
+	}
+}

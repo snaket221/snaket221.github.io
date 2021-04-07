@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>13 Caprice - Redsaint Mods</title>
+	<link rel="icon" type="image/png" href="https://redsaintmods.com/images/logo250x250.png" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-0c38nfCMzF8w8DBI+9nTWzApOpr1z0WuyswL4y6x/2ZTtmj/Ki5TedKeUcFusC/k" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"> 
+	<link href="../../css/core.css" rel="stylesheet">
+	<link href="../../css/subpages.css" rel="stylesheet">
+	<link href="../../css/car.css" rel="stylesheet">
+	<meta name="theme-color" content="#ff1419">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:creator" content="@jekeltor">
+	<meta property="og:url" content="https://redsaintmods.com">
+	<meta property="og:title" content="13 Caprice - Redsaint Mods">
+	<meta property="og:description" content="GTA 5 Model Developer">
+	<meta property="og:image" content="https://redsaintmods.com/images/logo250x250.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../../js/preloader.js"></script>
+</head>
+<body>
+	<section class="preloader">
+	</section>
+	<section class="dropdown">
+		<div class="center">
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+			<a href="https://redsaintmods.com/search">Search</a>
+			<a href="https://redsaintmods.com/account">Account</a>
+			<a href="https://redsaintmods.com/cart">Cart</a>
+		</div>
+	</section>
+	<section class="navbar scrolled">
+		<div class="left">
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+			<a class="dropbtn" onclick="dropdown()"><i class="fas fa-bars"></i></a>
+		</div>
+		<div class="center">
+			<a href="https://redsaintmods.com"><img src="https://redsaintmods.com/images/logo250x250.png" alt="Redsaint Logo"></a>
+		</div>
+		<div class="right">
+			<form method="POST" action="../../shop/index.php" class="searchform"><input type="text" name="item" placeholder="Search here" class="search"><button name="mysubmitbutton" type="submit"><i class="fas fa-search"></i></button></form>
+			<a class="seen searcha" onclick="searchdb()"><i class="fas fa-search searchbutton"></i><span class="searchbutton">Search</span></a>
+			<a href="https://redsaintmods.com/account"><i class="fas fa-user"></i>Account</a>
+			<a href="https://redsaintmods.com/cart" class="seen"><i class="fas fa-shopping-cart"></i><span>Cart</span></a>
+		</div>
+	</section>
+	<section class="body">
+		<div class="left">
+			<div class="overflow">
+				<div class="absolute">
+											<div class="image" style="background-image: url(https://redsaintmods.com/images/uploads/d4nhfm4y.png)">
+						</div>
+																<iframe class="image" src="https://www.youtube.com/embed/af9L4R9ZDK0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+									</div>
+				<div class="controls">
+					<div class="l">
+						<a class="conleft" onclick="carousel('back')"><i class="fas fa-chevron-left"></i></a>
+					</div>
+					<div class="r">
+						<a class="conright" onclick="carousel('forward')"><i class="fas fa-chevron-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="bottomimages" style="grid-row-gap: 1vh">
+									<div class="image" style="background-image: url(https://redsaintmods.com/images/uploads/d4nhfm4y.png)" onclick="changeimage('1')">
+					</div>
+									<div class="image" style="background-image: url(https://i3.ytimg.com/vi/af9L4R9ZDK0/hqdefault.jpg)" onclick="changeimage('2')">
+						<img src="../../images/playbutton.png">
+					</div>
+							</div>
+		</div>
+		<div class="right">
+			<h1>13 Caprice</h1>
+			<h2><b>Price:</b> $15</h2>
+			<p style="margin-top: 4vh"><b>Features:</b> Moveable Spotlight | Detailed Dirt Maps | Detailed Interior | Working Tow Hitch | 360 Degree Lighting</p>
+			<p><b>Extras:</b> Extra 1 - Lightbar | Extra 2 - Rambar | Extra 3 - Wraparound Rambar | Extra 4 - Dashlight | Extra 5 - Inner Edge | Extra 6 - Grille Lights | Extra 9 - ALPR System | Extra 10 - Antennas | Extra 11 - Moveable Spotlight | Extra 12 - Spotlights Down</p>
+			<div class="bottom">
+				<form method="POST" id="addcar">
+					<input type="text" name="id" value="19#vehicles" hidden>
+					<button type="submit" form="addcar" name="additem" value="Submit">Add to Cart</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section class="othercars">
+		<h1>Other listings you may like</h1>
+		<div class="grid">
+						<div class="item">
+				<div class="top" style="background-image: url(https://redsaintmods.com/images/uploads/adjv5zbf.png)">
+				</div>
+				<div class="bottom">
+					<h2>18 Charger k9</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=78">View More</a>
+				</div>
+			</div>
+						<div class="item">
+				<div class="top" style="background-image: url(https://redsaintmods.com/images/uploads/n8g5tzb1.png)">
+				</div>
+				<div class="bottom">
+					<h2>18 F250</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=36">View More</a>
+				</div>
+			</div>
+						<div class="item">
+				<div class="top" style="background-image: url(https://redsaintmods.com/images/uploads/7sti1xw5.png)">
+				</div>
+				<div class="bottom">
+					<h2>2016 FPIU</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=104">View More</a>
+				</div>
+			</div>
+						<div class="item">
+				<div class="top" style="background-image: url(https://redsaintmods.com/images/uploads/0bthauno.png)">
+				</div>
+				<div class="bottom">
+					<h2>13 Tahoe</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=26">View More</a>
+				</div>
+			</div>
+					</div>
+	</section>
+	<section class="footer">
+		<div class="column">
+			<h1>Menu</h1>
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+		</div>
+		<div class="column">
+			<h1>Information</h1>
+			<a href="https://redsaintmods.com/terms">Terms</a>
+			<a href="https://redsaintmods.com/faq">FAQ</a>
+		</div>
+		<div class="column">
+			<h1>Company</h1>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/partners">Partners/Team</a>
+		</div>
+		<div class="column">
+			<h1>Socials</h1>
+			<a href="https://redsaintmods.com/discord" class="social"><i class="fab fa-discord"></i></a>
+			<a href="https://redsaintmods.com/youtube" class="social"><i class="fab fa-youtube"></i></a>
+			<a href="https://redsaintmods.com/instagram" class="social"><i class="fab fa-instagram"></i></a>
+		</div>
+	</section>
+	<script src="../../js/car.js"></script>
+	<script>
+		function carousel(direction) {
+			var itemtop = document.querySelector(".body .left .overflow");
+
+			if (window.innerHeight > window.innerWidth){
+				var number = 80;
+			}
+
+			else {
+				var number = 40;
+			}
+
+			var total = 2 * - number;
+			var overflow = document.querySelector(".absolute");
+			var currentleft = overflow.style.left;
+
+			if (currentleft == "") {
+				overflow.style.left = "0vw";
+			}
+
+			else if (direction == "forward" || direction == null) {
+				var newtotal = currentleft.replace("vw", "") - number + "vw";
+									if (newtotal.replace("vw", "") == total && direction == null) {
+					}
+
+					else if (newtotal.replace("vw", "") == total && direction == "forward") {
+						overflow.style.left = "0vw";
+					}
+				
+				else {
+					overflow.style.left = newtotal;
+				}
+			}
+
+			else if (direction == "back") {
+				var newtotal = Number(currentleft.replace("vw", "")) + number + "vw";
+				if (newtotal == "40vw") {
+				}
+
+				else {
+					overflow.style.left = newtotal;
+				}
+			}
+		}
+	</script>
+</body>
+</html>

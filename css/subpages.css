@@ -1,0 +1,94 @@
+.top {
+	height: 65vh;
+}
+
+.body {
+	width: 80%;
+	margin: 0 10%;
+}
+
+.body h1 {
+	font-size: 3.5vh;
+	color: #000;
+	margin: 0;
+	margin-bottom: 5vh;
+	text-align: center;
+	margin-top: 3vh;
+}
+
+.body .grid {
+	display: grid;
+	width: 100%;
+	grid-auto-rows: 1fr;
+	grid-column-gap: 5%;
+	grid-row-gap: 8vh;
+	grid-template-columns: repeat(3, 1fr);
+	margin-bottom: 12vh;
+}
+
+.body .grid .item .top {
+	display: block;
+	width: 23.78vw;
+	height: 13.37625vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0vh 0vh 2vh rgba(0, 0, 0, .7);
+	border-radius: .5vh;
+}
+
+.body .grid .item .bottom {
+	text-align: center;
+	margin-top: 2vh;
+}
+
+.body .grid .item .bottom h2 {
+	font-size: 2.25vh;
+	color: #000;
+	margin: 0;
+}
+
+.body .grid .item .bottom h3 {
+	font-size: 1.6vh;
+	font-weight: 400;
+	margin: 0;
+	margin-top: 1vh;
+	margin-bottom: 4vh;
+}
+
+.body .grid .item .bottom form {
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.body .grid .item .bottom a, .body .grid .item .bottom button {
+	box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+	font-size: 1.75vh;
+	color: #fff;
+	background-color: #ff1402;
+	padding: 1vh .3vw;
+	text-decoration: none;
+	border-radius: .5vh;
+	box-shadow: 0vh 0vh 2vh rgba(0, 0, 0, .7);
+	font-weight: 400;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.body .grid .item .bottom button {
+	white-space: nowrap;
+	width: 100%;
+}
+
+@media screen and (max-width: 600px), (orientation : portrait) {
+	.body .grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.body .grid .item .top {
+		width: 80vw;
+		height: 45vw;
+	}
+}

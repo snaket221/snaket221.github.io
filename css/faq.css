@@ -1,0 +1,52 @@
+.body {
+	min-height: 58.7vh;
+	margin-top: 15vh;
+	margin-bottom: 5vh;
+}
+
+.body .questions {
+	width: 50%;
+	margin: 0 25%;
+}
+
+.body .questions h1 {
+	margin-bottom: 3vh;
+}
+
+.body .questions .item {
+	width: 95%;
+	background-color: #720405;
+	color: #fff;
+	padding: 1.5vh 2.5%;
+	margin-bottom: 3vh;
+	cursor: pointer;
+}
+
+.body .questions .item h4 {
+	color: #fff;
+	font-size: 2vh;
+	margin: 0;
+}
+
+.body .questions .item p {
+	display: none;
+	margin: 0;
+	font-size: 1.6vh;
+	color: #dbdbdb;
+	margin-top: 1.5vh;
+}
+
+.body .questions .item p a {
+	color: #fff;
+}
+
+.body .questions .item.shown p {
+	display: block;
+}
+
+@media screen and (max-width: 600px), (orientation : portrait) {
+	.body .questions {
+		width: 90%;
+		margin: 0 5%;
+	}
+}

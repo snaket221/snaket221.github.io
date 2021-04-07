@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Code 3 Mega Pack - Redsaint Mods</title>
+	<link rel="icon" type="image/png" href="https://redsaintmods.com/images/logo250x250.png" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-0c38nfCMzF8w8DBI+9nTWzApOpr1z0WuyswL4y6x/2ZTtmj/Ki5TedKeUcFusC/k" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"> 
+	<link href="../../css/core.css" rel="stylesheet">
+	<link href="../../css/subpages.css" rel="stylesheet">
+	<meta name="theme-color" content="#ff1419">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:creator" content="@jekeltor">
+	<meta property="og:url" content="https://redsaintmods.com">
+	<meta property="og:title" content="Code 3 Mega Pack - Redsaint Mods">
+	<meta property="og:description" content="GTA 5 Model Developer">
+	<meta property="og:image" content="https://redsaintmods.com/images/logo250x250.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../../js/preloader.js"></script>
+</head>
+<body>
+	<section class="preloader">
+	</section>
+	<section class="dropdown">
+		<div class="center">
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+			<a href="https://redsaintmods.com/search">Search</a>
+			<a href="https://redsaintmods.com/account">Account</a>
+			<a href="https://redsaintmods.com/cart">Cart</a>
+		</div>
+	</section>
+	<section class="navbar">
+		<div class="left">
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+			<a class="dropbtn" onclick="dropdown()"><i class="fas fa-bars"></i></a>
+		</div>
+		<div class="center">
+			<a href="https://redsaintmods.com"><img src="https://redsaintmods.com/images/logo250x250.png" alt="Redsaint Logo"></a>
+		</div>
+		<div class="right">
+			<form method="POST" action="../../shop/index.php" class="searchform"><input type="text" name="item" placeholder="Search here" class="search"><button name="mysubmitbutton" type="submit"><i class="fas fa-search"></i></button></form>
+			<a class="seen searcha" onclick="searchdb()"><i class="fas fa-search searchbutton"></i><span class="searchbutton">Search</span></a>
+			<a href="https://redsaintmods.com/account"><i class="fas fa-user"></i>Account</a>
+			<a href="https://redsaintmods.com/cart" class="seen"><i class="fas fa-shopping-cart"></i><span>Cart</span></a>
+		</div>
+	</section>
+	<section class="top">
+		<div class="bg-video" id="bg-video">
+		  	<iframe id="player" class="player" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/Icc2YsIsBL4?autoplay=1&amp;controls=1&amp;loop=1&amp;playlist=Icc2YsIsBL4&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fredsaintmods.com&amp;widgetid=1&amp;modestbranding=1&amp;mute=1;start=7;hd=1"></iframe>
+		</div>
+		<div class="screen">
+		</div>
+	</section>
+	<section class="body">
+				<h1>Code 3 Mega Pack's Vehicles</h1>
+				<div class="grid">
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/wgri7egh.png)" href="https://redsaintmods.com/shop/car?id=60">
+				</a>
+				<div class="bottom">
+					<h2>Bmw</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=60">View More</a>
+					<form method="POST" id="addcar60">
+						<input type="text" name="id" value="60#vehicles" hidden>
+						<button type="submit" form="addcar60" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/8tqjesgv.png)" href="https://redsaintmods.com/shop/car?id=61">
+				</a>
+				<div class="bottom">
+					<h2>Boat and Trailer</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=61">View More</a>
+					<form method="POST" id="addcar61">
+						<input type="text" name="id" value="61#vehicles" hidden>
+						<button type="submit" form="addcar61" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url( https://redsaintmods.com/images/uploads/ei1p7a5e.png)" href="https://redsaintmods.com/shop/car?id=62">
+				</a>
+				<div class="bottom">
+					<h2>Camaro</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=62">View More</a>
+					<form method="POST" id="addcar62">
+						<input type="text" name="id" value="62#vehicles" hidden>
+						<button type="submit" form="addcar62" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/rpgjy9c9.png)" href="https://redsaintmods.com/shop/car?id=63">
+				</a>
+				<div class="bottom">
+					<h2>Caprice </h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=63">View More</a>
+					<form method="POST" id="addcar63">
+						<input type="text" name="id" value="63#vehicles" hidden>
+						<button type="submit" form="addcar63" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/sq9h8tvr.png)" href="https://redsaintmods.com/shop/car?id=64">
+				</a>
+				<div class="bottom">
+					<h2>Durango</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=64">View More</a>
+					<form method="POST" id="addcar64">
+						<input type="text" name="id" value="64#vehicles" hidden>
+						<button type="submit" form="addcar64" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url( https://redsaintmods.com/images/uploads/vcqdyh42.png)" href="https://redsaintmods.com/shop/car?id=65">
+				</a>
+				<div class="bottom">
+					<h2>F150</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=65">View More</a>
+					<form method="POST" id="addcar65">
+						<input type="text" name="id" value="65#vehicles" hidden>
+						<button type="submit" form="addcar65" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url( https://redsaintmods.com/images/uploads/mn6tue3a.png)" href="https://redsaintmods.com/shop/car?id=66">
+				</a>
+				<div class="bottom">
+					<h2>F250</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=66">View More</a>
+					<form method="POST" id="addcar66">
+						<input type="text" name="id" value="66#vehicles" hidden>
+						<button type="submit" form="addcar66" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/ze7ozab7.png)" href="https://redsaintmods.com/shop/car?id=67">
+				</a>
+				<div class="bottom">
+					<h2>Harley</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=67">View More</a>
+					<form method="POST" id="addcar67">
+						<input type="text" name="id" value="67#vehicles" hidden>
+						<button type="submit" form="addcar67" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/ryr60kwt.png)" href="https://redsaintmods.com/shop/car?id=68">
+				</a>
+				<div class="bottom">
+					<h2>Mustang </h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=68">View More</a>
+					<form method="POST" id="addcar68">
+						<input type="text" name="id" value="68#vehicles" hidden>
+						<button type="submit" form="addcar68" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/rjqyahg7.png)" href="https://redsaintmods.com/shop/car?id=69">
+				</a>
+				<div class="bottom">
+					<h2>Ram</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=69">View More</a>
+					<form method="POST" id="addcar69">
+						<input type="text" name="id" value="69#vehicles" hidden>
+						<button type="submit" form="addcar69" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/0xxgo0yq.png)" href="https://redsaintmods.com/shop/car?id=70">
+				</a>
+				<div class="bottom">
+					<h2>10 Charger </h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=70">View More</a>
+					<form method="POST" id="addcar70">
+						<input type="text" name="id" value="70#vehicles" hidden>
+						<button type="submit" form="addcar70" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/w4v6g51q.png)" href="https://redsaintmods.com/shop/car?id=71">
+				</a>
+				<div class="bottom">
+					<h2>11 CVPI</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=71">View More</a>
+					<form method="POST" id="addcar71">
+						<input type="text" name="id" value="71#vehicles" hidden>
+						<button type="submit" form="addcar71" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/tcvbvjes.png)" href="https://redsaintmods.com/shop/car?id=72">
+				</a>
+				<div class="bottom">
+					<h2>13 Tahoe</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=72">View More</a>
+					<form method="POST" id="addcar72">
+						<input type="text" name="id" value="72#vehicles" hidden>
+						<button type="submit" form="addcar72" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/peru863v.png)" href="https://redsaintmods.com/shop/car?id=73">
+				</a>
+				<div class="bottom">
+					<h2>14 Charger </h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=73">View More</a>
+					<form method="POST" id="addcar73">
+						<input type="text" name="id" value="73#vehicles" hidden>
+						<button type="submit" form="addcar73" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/0xnqa5yv.png)" href="https://redsaintmods.com/shop/car?id=74">
+				</a>
+				<div class="bottom">
+					<h2>16 FPIS</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=74">View More</a>
+					<form method="POST" id="addcar74">
+						<input type="text" name="id" value="74#vehicles" hidden>
+						<button type="submit" form="addcar74" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/23laxkki.png)" href="https://redsaintmods.com/shop/car?id=75">
+				</a>
+				<div class="bottom">
+					<h2>16 FPIU</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=75">View More</a>
+					<form method="POST" id="addcar75">
+						<input type="text" name="id" value="75#vehicles" hidden>
+						<button type="submit" form="addcar75" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/jxfb9uu0.png)" href="https://redsaintmods.com/shop/car?id=76">
+				</a>
+				<div class="bottom">
+					<h2>16 Impala </h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=76">View More</a>
+					<form method="POST" id="addcar76">
+						<input type="text" name="id" value="76#vehicles" hidden>
+						<button type="submit" form="addcar76" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url( https://redsaintmods.com/images/uploads/achj03dn.png)" href="https://redsaintmods.com/shop/car?id=77">
+				</a>
+				<div class="bottom">
+					<h2>18 Charger</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=77">View More</a>
+					<form method="POST" id="addcar77">
+						<input type="text" name="id" value="77#vehicles" hidden>
+						<button type="submit" form="addcar77" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/adjv5zbf.png)" href="https://redsaintmods.com/shop/car?id=78">
+				</a>
+				<div class="bottom">
+					<h2>18 Charger k9</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=78">View More</a>
+					<form method="POST" id="addcar78">
+						<input type="text" name="id" value="78#vehicles" hidden>
+						<button type="submit" form="addcar78" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/usd5r13m.png)" href="https://redsaintmods.com/shop/car?id=79">
+				</a>
+				<div class="bottom">
+					<h2>18 Silverado </h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=79">View More</a>
+					<form method="POST" id="addcar79">
+						<input type="text" name="id" value="79#vehicles" hidden>
+						<button type="submit" form="addcar79" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/ex4wzw9b.png)" href="https://redsaintmods.com/shop/car?id=80">
+				</a>
+				<div class="bottom">
+					<h2>18 Tahoe </h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=80">View More</a>
+					<form method="POST" id="addcar80">
+						<input type="text" name="id" value="80#vehicles" hidden>
+						<button type="submit" form="addcar80" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/9ned5glp.png)" href="https://redsaintmods.com/shop/car?id=81">
+				</a>
+				<div class="bottom">
+					<h2>K9 18 Tahoe </h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=81">View More</a>
+					<form method="POST" id="addcar81">
+						<input type="text" name="id" value="81#vehicles" hidden>
+						<button type="submit" form="addcar81" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url( https://redsaintmods.com/images/uploads/h9lbnvo9.png)" href="https://redsaintmods.com/shop/car?id=82">
+				</a>
+				<div class="bottom">
+					<h2>19 Silverado </h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=82">View More</a>
+					<form method="POST" id="addcar82">
+						<input type="text" name="id" value="82#vehicles" hidden>
+						<button type="submit" form="addcar82" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/p7b1h6t0.png)" href="https://redsaintmods.com/shop/car?id=83">
+				</a>
+				<div class="bottom">
+					<h2>FPIU</h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=83">View More</a>
+					<form method="POST" id="addcar83">
+						<input type="text" name="id" value="83#vehicles" hidden>
+						<button type="submit" form="addcar83" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+						<div class="item">
+				<a class="top" style="background-image: url(https://redsaintmods.com/images/uploads/q8vdbd5j.png)" href="https://redsaintmods.com/shop/car?id=84">
+				</a>
+				<div class="bottom">
+					<h2>Gator and Trailer </h2>
+					<h3>$15</h3>
+					<a href="https://redsaintmods.com/shop/car?id=84">View More</a>
+					<form method="POST" id="addcar84">
+						<input type="text" name="id" value="84#vehicles" hidden>
+						<button type="submit" form="addcar84" name="additem" value="Submit">Add to Cart</button>
+					</form>
+				</div>
+			</div>
+					</div>
+	</section>
+	<section class="footer">
+		<div class="column">
+			<h1>Menu</h1>
+			<a href="https://redsaintmods.com">Home</a>
+			<a href="https://redsaintmods.com/shop">Shop</a>
+		</div>
+		<div class="column">
+			<h1>Information</h1>
+			<a href="https://redsaintmods.com/terms">Terms</a>
+			<a href="https://redsaintmods.com/faq">FAQ</a>
+		</div>
+		<div class="column">
+			<h1>Company</h1>
+			<a href="https://redsaintmods.com/about">About</a>
+			<a href="https://redsaintmods.com/partners">Partners/Team</a>
+		</div>
+		<div class="column">
+			<h1>Socials</h1>
+			<a href="https://redsaintmods.com/discord" class="social"><i class="fab fa-discord"></i></a>
+			<a href="https://redsaintmods.com/youtube" class="social"><i class="fab fa-youtube"></i></a>
+			<a href="https://redsaintmods.com/instagram" class="social"><i class="fab fa-instagram"></i></a>
+		</div>
+	</section>
+	<script src="../../js/core.js"></script>
+</body>
+</html>

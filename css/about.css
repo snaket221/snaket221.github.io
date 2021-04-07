@@ -1,0 +1,53 @@
+.body {
+	display: flex;
+	min-height: 63.7vh;
+	margin-top: 15vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.body .left {
+	width: 35%;
+}
+
+.body .left img {
+	width: 25vw;
+	height: auto;
+}
+
+.body .right {
+	width: 60%;
+	margin-left: 5%;
+	font-size: 1.7vh;
+	color: #000;
+	margin: 0;
+	line-height: 3vh;
+}
+
+.body .right p {
+	margin: 0;
+}
+
+
+@media screen and (max-width: 600px), (orientation : portrait) {
+	.body {
+		display: block;
+		margin-bottom: 3vh;
+	}
+
+	.body .left {
+		width: 100%;
+		text-align: center;
+	}
+
+	.body .left img {
+		display: inline-block;
+		height: 25vh;
+		width: auto;
+	}
+
+	.body .right {
+		width: 100%;
+		text-align: center;
+	}
+}
